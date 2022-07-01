@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("https://lh3.googleusercontent.com/pw/AM-JKLUu6u4kIymHuFi3eyZpyTPH5EkQJrQ9JbTf9C_Y4oNDzXAb2lf8-407jtkJGFawX_2bhM0Ny5pd69bRKqs2cD3JxZwJ0DyyedGCJ1GMA8JLF17tVuv2mdymhyjZsKW3SghEwrUXnqY2aPRtNID5pIc9AQ=w1605-h903-no?authuser=0");
+  color: aliceblue;
+  font-family: sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.25rem;
+  /* background-color: deepskyblue; */
+  border-radius: 0.15rem;
+  letter-spacing: 5px;
+  font-family: "Arvo", serif;
+}
+.clock {
+  display: flex;
+  flex-direction: row;
+  border: 0.01rem solid rgb(0, 0, 0);
+  border-radius: 11px;
+  background-color: rgba(6, 0, 8, 0.301);
+}
+.clock div {
+  margin: 0.5rem;
+}
+/* 
+.test {
+  display: flex;
+  flex-direction: row;
+} */
+
+.holder {
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 1px 1px 1px black; */
+}
+
+.clock span {
+  /* padding: 2rem 2.5rem; */
+  display: flex;
+  height: 8rem;
+  width: 11rem;
+  background-color: rgba(0, 106, 255, 0.648);
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3.5rem;
+
+  text-shadow: 2px 2px 2px black;
+}
+
+.clock .text {
+  /*  margin-top: 0.25rem; */
+  /* padding: 0.5rem 1rem; */
+  height: 3rem;
+  text-align: center;
+  background-color: rgba(100, 30, 231, 0.848);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+}
+
+.clock .ampm {
+  background-color: rgba(100, 30, 231, 0.848);
+  font-size: 1rem;
+  /* padding: 0.5rem 1rem; */
+  letter-spacing: 0.125rem;
+  height: 3rem;
+  width: 11rem;
+}
+
+.holder-ampm {
+  justify-content: end;
+}
